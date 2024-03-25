@@ -1,9 +1,22 @@
 
 # Rapport
 
-**Skriv din rapport här!**
+Det som uppdaterades var namnet från Hello till Injera>fufu genom att byta texten i strings.xml.
+Texten i textview ändrades även till injera superior to fufu genom att addera en ny string med ett nytt name.
 
-_Du kan ta bort all text som finns sedan tidigare_.
+```
+<resources>
+    <string name="app_name">Injera>Fufu</string>
+    <string name="app_text">Injera superior to fufu</string>
+</resources>
+```
+
+```
+...
+android:text="@string/app_text"
+...
+```
+
 
 ## Följande grundsyn gäller dugga-svar:
 
